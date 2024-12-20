@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Image Gallery</h1>
+    <div class="heading-bar"></div> <!-- New div for the background bar -->
+<div class="gallery">
+    <div class="thumbnail-container">
+        <a href="images/Tommy.jpeg" class="thumbnail" data-lightbox="gallery">
+            <img src="images/Tommy.jpeg" alt="Tommy">
+        </a>
+        <a href="images/maddy.jpg" class="thumbnail" data-lightbox="gallery">
+            <img src="images/maddy.jpg" alt="Maddy">
+        </a>
+        <a href="images/sheru.jpeg" class="thumbnail" data-lightbox="gallery">
+            <img src="images/sheru.jpeg" alt="Sheru">
+        </a>
+        </a>
+        <a href="images/Rommy.jpeg" class="thumbnail" data-lightbox="gallery">
+            <img src="images/Rommy.jpeg" alt="Rommy">
+        </a><a href="images/kenny.jpeg" class="thumbnail" data-lightbox="gallery">
+            <img src="images/kenny.jpeg" alt="kenny">
+        </a>
+    </a><a href="images/tiger.jpg" class="thumbnail" data-lightbox="gallery">
+        <img src="images/tiger.jpg" alt="tiger">
+    </a>
+    <a href="images/re.jpg" class="thumbnail" data-lightbox="gallery">
+            <img src="images/re.jpg" alt="re">
+    </a>
+</a><a href="images/labrador.jpeg" class="thumbnail" data-lightbox="gallery">
+    <img src="images/labrador.jpeg" alt="labrador">
+    </a>
+        
+    </div>
+</div>
+
+<div class="lightbox" id="lightbox">
+    <span class="close" id="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-image" alt="">
+    <div class="caption" id="caption"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
